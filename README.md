@@ -80,4 +80,4 @@ Obtener los tickets de un cliente
         "tickets": "5"
 	}
 
-<p> Codigo fuente y coleccion de postman estan incluidos en el repositorio </p>
+<p> Codigo fuente y coleccion de postman incluidos en el repositorio </p>
