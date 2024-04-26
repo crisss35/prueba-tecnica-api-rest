@@ -2,7 +2,8 @@
 
 <p> Instrucciones para crear peticiones, es necesario ejecutar php artisan serve </p>
 
-#### /api/events
+
+### /api/events
 Obtener un listado con todos los eventos disponibles
 ###### *Ejemplo*:
 
@@ -28,7 +29,8 @@ Obtener un listado con todos los eventos disponibles
         "updated_at": null
 	}
 
-#### /api/event/(id)
+
+### /api/event/(id)
 
 Obtener la informacion de un evento especifico
 ###### *Ejemplo*:
@@ -43,7 +45,8 @@ Obtener la informacion de un evento especifico
 		"evento_id": 3
 	}
 
-#### /api/purchase
+
+### /api/purchase
 
 Crear la compra del ticket
 ###### *Ejemplo de insercion con metodo POST*
@@ -61,7 +64,8 @@ Crear la compra del ticket
 		"evento_id": 3
 	}
 
-#### /api/orders/(id)
+
+### /api/orders/(id)
 
 Obtener los tickets de un cliente
 ###### *Ejemplo*:
