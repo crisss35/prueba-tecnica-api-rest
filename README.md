@@ -1,7 +1,14 @@
 ## API REST
 
-<p> Instrucciones para crear peticiones, es necesario ejecutar php artisan serve </p>
-
+### Instrucciones para crear peticiones, es necesario ejecutar `php artisan serve`
+### Base de Datos
+                    
+Eventos  | Clientes
+------------- | -------------
+id  | id
+nombre | nombre
+precio | tickets
+.      | evento_id
 
 ### /api/events
 Obtener un listado con todos los eventos disponibles
