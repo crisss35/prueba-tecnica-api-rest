@@ -1,7 +1,10 @@
-## API REST
+# API REST
 
-### Instrucciones para crear peticiones, es necesario ejecutar `php artisan serve`
+### Instrucciones para crear peticiones, es necesario ejecutar `php artisan serve`.
+
+
 ### Base de Datos
+<p>Comenzar con la creacion de una base de datos utilizando migraciones en laravel.</p>
                     
 Eventos  | Clientes
 ------------- | -------------
@@ -10,8 +13,12 @@ nombre | nombre
 precio | tickets
 .      | evento_id
 
+<p>Para cada clase se utliza la relacion uno a muchos (has many y belongs to para la relacion inversa).</p>
+
+### Como se trata de una API REST utilizo el route `api.php`.
+
 ### /api/events
-Obtener un listado con todos los eventos disponibles
+Obtener un listado con todos los eventos disponibles.
 ###### *Ejemplo*:
 
 	{
@@ -39,7 +46,7 @@ Obtener un listado con todos los eventos disponibles
 
 ### /api/event/(id)
 
-Obtener la informacion de un evento especifico
+Obtener la informacion de un evento especifico.
 ###### *Ejemplo*:
 
 	{
@@ -55,7 +62,7 @@ Obtener la informacion de un evento especifico
 
 ### /api/purchase
 
-Crear la compra del ticket
+Crear la compra del ticket.
 ###### *Ejemplo de insercion con metodo POST*
 	{
 		"nombre" : "Alejandro",
@@ -74,7 +81,7 @@ Crear la compra del ticket
 
 ### /api/orders/(id)
 
-Obtener los tickets de un cliente
+Obtener los tickets de un cliente.
 ###### *Ejemplo*:
 
 	{
@@ -87,4 +94,4 @@ Obtener los tickets de un cliente
         "tickets": "5"
 	}
 
-<p> Codigo fuente y coleccion de postman incluidos en el repositorio </p>
+### Código fuente, evidencias y colección de postman *incluidos en el repositorio*.
