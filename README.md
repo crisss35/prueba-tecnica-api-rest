@@ -1,6 +1,6 @@
 ## API REST
 
-<p>Instrucciones para crear peticiones, es necesario ejecutar `php artisan serve`</p>
+<p> Instrucciones para crear peticiones, es necesario ejecutar php artisan serve </p>
 
 #### /api/events
 Obtener un listado con todos los eventos disponibles
@@ -76,4 +76,4 @@ Obtener los tickets de un cliente
         "tickets": "5"
 	}
 
-<p> Codigo fuente y coleccion de postman estan __incluidos en el repositorio__ </p>
+<p> Codigo fuente y coleccion de postman estan incluidos en el repositorio </p>
